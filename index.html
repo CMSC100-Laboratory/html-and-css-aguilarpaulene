@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <title>Sample Web Page</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="flex.css" />
 
   </head>
@@ -11,58 +11,65 @@
     
     <nav>
     <div class="nav_bar" >
-        <div class="flex-item" style="flex: 1">
-            <a href="/html/">HTML</a> |
-        </div>
-        <div class="flex-item" style="flex: 1">
-            <a href="/css/">CSS</a>
-        </div> 
-    |   <div class="flex-item" style="flex: 1">
-            <a href="/js/">JavaScript</a> |
-        </div>
-        <div class="flex-item" style="flex: 1">
-            <a href="/python/">Python</a>
+        <img src="images/logo.png" width="90" height="90">
+        <div class="flex-item" id="navselect" style="flex: 1">
+            <a href="#projects"> Projects</a>
+            <a href="#skills_autobio"> Skills</a>
+            <a href="#skills_autobio"> Autobiography</a>
+            <a href="#contact"> Contact</a>
         </div>
     </div>
     </nav>
 
     <div class="flex-container">
+        <img class="img" src="images/me.png" alt="paulene" style="width: 300px;">
         <div class="flex-item" style="flex: 3;">
-            <h1>1</h1>
-            <p>This is a paragraph</p>
-            <img src="images/cake.png" width="500" height="500" alignment>
+            <h1 class="intro">Hello! Welcome to my portfolio</h1>
+            <h2 class="intro">I am Paulene A. Aguilar</h2>
         </div>
     </div>
 
-    <div class="flex-container2">
+    <div class="flex-container2" id="projects">
         <div class="flex-item" style="flex: 3;">
             <h3>Project 1: Diet Problem Solver with R</h3>
             <p>R Programming Language is used to create this project. The goal is to minimize cost while satisfying the needed nutrients base on the selected food options.</p>
             <a href="https://pa-aguilar.shinyapps.io/dietproblemsolver/"> Diet Problem Solver</a>
+            <img src="images/rproject.png" width="600" height="290">
         </div>
         <div class="flex-item" style="flex: 3;">
             <h3>Project 2: Space Shooting Game with Java</h3>
-            <p>Java is used to create this project. It is simple shooting game where the ship can be hit by a rock and can shoot to gain points.</p>
+            <p>
+                This project is created using Java. It is a simple shooting game where the player controls a ship that shoots rocks to earn points. However, the ship must avoid getting hit by rocks, as collisions will eventually lead to losing the game.
+            </p>           
+            <img src="images/javaproject.png" width="600" height="300">
         </div>
     </div>
 
-    <div class="flex-container3">
+    <div class="flex-container3" id="skills_autobio">
         <div class="flex-item" style="flex: 3;">
             <h1>Skills</h1>
-            <p>Programming with Python, C, Java and R</p>
-            <p>Editing with Canva</p>
-            <p>Microsoft Word and Excel</p>
+            <p> Python <br> C <br> Java <br>  R <br> Canva <br> Micrososft Word <br> Microsoft Excel </p>
         </div>
         <div class="flex-item" style="flex: 3;">
             <h1>Autobiography</h1>
-            <p>This is another paragraph</p>
+            <p>I am Paulene A. Aguilar a BS Computer Science.
+            I started programming in college and have spent the past three years exploring various programming languages, continuously developing my knowledge and skills.
+            In this field, I am willing to learn new tools, collaborate with teams and tackle new problems.
+            I am particularly interested in building interactive and user-friendly websites and software for better user experiences.
+            I am excited to apply my skills in real-world projects and to contribute for innovative solutions.
+            </p>
         </div>
     </div>
 
-    <div class="flex-container4">
+    <div class="flex-container4" id="contact">
+        <img src="images/logo.png" alt="logo" width="90" height="90">
         <div class="flex-item" style="flex: 3;">
-            <h1>1</h1>
-            <p>This is a paragraph</p>
+            <p class="footer" id="contacts">
+            <strong>Contact details</strong><br>
+            Calamba, Laguna <br>
+            paaguilar@up.edu.ph <br>
+            Copyright <br>
+            </p>
         </div>
     </div>
 

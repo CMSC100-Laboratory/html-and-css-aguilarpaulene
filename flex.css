@@ -1,55 +1,75 @@
 .flex-container {
     display: flex;
     border-style: solid;
-    border-width: 5px;
-    border-color: red;
+    border-width: 1px;
+    border-color: rgb(242, 236, 236);
     flex-direction: row;
 }
 
 .nav_bar {
     display: flex;
     border-style: solid;
-    border-width: 5px;
-    border-color: rgb(255, 0, 200);
+    border-width: 1px;
+    border-color: rgb(247, 239, 245);
     flex-direction: row;
 }
 
 .flex-container2 {
     display: flex;
     border-style: solid;
-    border-width: 5px;
-    border-color: rgb(0, 255, 51);
+    border-width: 1px;
+    border-color: rgb(227, 234, 229);
     flex-direction: row;
 }
 .flex-item {
     border-style: solid;
-    border-width: 2px;
-    border-color: red;
+    border-width: 1px;
+    border-color: rgb(243, 237, 237);
 }
 
 .flex-container3 {
     display: flex;
     border-style: solid;
-    border-width: 5px;
-    border-color: rgb(0, 255, 51);
+    border-width: 1px;
+    border-color: rgb(235, 244, 237);
     flex-direction: row;
 }
 .flex-item {
     border-style: solid;
-    border-width: 2px;
-    border-color: red;
+    border-width: 1px;
+    border-color: rgb(240, 236, 236);
 }
 
 .flex-container4 {
     display: flex;
     border-style: solid;
-    border-width: 5px;
-    border-color: rgb(0, 255, 51);
+    border-width: 1px;
+    border-color: rgb(240, 243, 241);
     flex-direction: row;
 }
 .flex-item {
     border-style: solid;
-    border-width: 2px;
-    border-color: red;
+    border-width: 1px;
+    border-color: rgb(243, 235, 235);
+    text-align:center;
 }
 
+.img {
+    border-radius: 50%;
+}
+
+.intro{
+    text-align:center;
+}
+
+.footer{
+    text-align: right;
+}
+
+#contacts{
+    text-align: left;
+}
+
+#navselect{
+    text-align: right;
+}

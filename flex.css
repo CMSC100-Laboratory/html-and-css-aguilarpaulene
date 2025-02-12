@@ -4,6 +4,8 @@
     border-width: 1px;
     border-color: rgb(242, 236, 236);
     flex-direction: row;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .nav_bar {
@@ -12,6 +14,8 @@
     border-width: 1px;
     border-color: rgb(247, 239, 245);
     flex-direction: row;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
 }
 
 .flex-container2 {
@@ -20,6 +24,7 @@
     border-width: 1px;
     border-color: rgb(227, 234, 229);
     flex-direction: row;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .flex-item {
     border-style: solid;
@@ -33,6 +38,8 @@
     border-width: 1px;
     border-color: rgb(235, 244, 237);
     flex-direction: row;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
 }
 .flex-item {
     border-style: solid;
@@ -46,6 +53,7 @@
     border-width: 1px;
     border-color: rgb(240, 243, 241);
     flex-direction: row;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .flex-item {
     border-style: solid;
@@ -71,5 +79,5 @@
 }
 
 #navselect{
-    text-align: right;
+    text-align: center;
 }
